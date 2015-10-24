@@ -53,7 +53,7 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
+  <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" remote="solo"/>
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
   <project path="device/moto/shamu" name="platform_device_moto_shamu" remote="solo" />
   <project path="kernel/moto/shamu" name="platform_kernel_moto_shamu" remote="solo"/>
@@ -487,6 +487,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <project path="vendor/lge" name="platform_vendor_lge" remote="solo" />
   <project path="vendor/moto" name="platform_vendor_moto" remote="solo" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="solo" />
 
