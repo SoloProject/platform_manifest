@@ -54,7 +54,7 @@
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
   <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" remote="solo"/>
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
+  <project path="kernel/lge/hammerhead" name="platform_lge_hammerhead_kernel" remote="solo" />
   <project path="device/moto/shamu" name="platform_device_moto_shamu" remote="solo" />
   <project path="kernel/moto/shamu" name="platform_kernel_moto_shamu" remote="solo"/>
   <project path="device/sample" name="device/sample" groups="pdk" />
