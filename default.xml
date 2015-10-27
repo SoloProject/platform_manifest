@@ -54,7 +54,7 @@
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
   <project path="device/lge/hammerhead" name="platform_device_lge_hammerhead" remote="solo"/>
-  <project path="kernel/lge/hammerhead" name="platform_lge_hammerhead_kernel" remote="solo" />
+  <project path="kernel/lge/hammerhead" name="platform_kernel_lge_hammerhead" remote="solo" />
   <project path="device/moto/shamu" name="platform_device_moto_shamu" remote="solo" />
   <project path="kernel/moto/shamu" name="platform_kernel_moto_shamu" remote="solo"/>
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -352,6 +352,7 @@
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
+  <project path="packages/apps/AudioFX" name="platform_packages_apps_AudioFX" remote="solo" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
